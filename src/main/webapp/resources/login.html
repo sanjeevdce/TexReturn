@@ -1,0 +1,32 @@
+<!--<form role="form" method="post" enctype="multipart/form-data" action="/uploadFrm16">-->
+<form role="form" class="form" name="login">
+	<div class="form-group">
+		<label class="col-md-3">
+		User Name :
+		</label>
+		<div class="col-md-8 mrgn-align">
+		<input type="text" class="form-control" id="username" ng-model="model.username" placeholder="Enter User Name" style=" float:left;" required>
+		<span ng-messages="login.username.$error">
+			<span class="invalid" ng-message="required">required</span>
+		</span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-3">
+		Password :
+		</label>
+		<div class="col-md-8 mrgn-align">
+		<input type="password" class="form-control" id="password" ng-model="model.password" placeholder="Enter Password" style=" float:left;" required>
+		<span ng-messages="login.password.$error">
+			<span class="invalid" ng-message="required">required</span>
+		</span>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-md-3"></div>
+		<div class="col-md-8 mrgn-align">
+			<button type="button" class="btn btn-default" ng-disabled="login.$invalid" ng-click="validateCredentials()">Login</button>
+			<button type="reset" class="btn btn-default">Reset</button>
+		</div>
+	</div>
+</form>

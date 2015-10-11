@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.navbar-inverse1{ padding: 10x 0;color: #fff;background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #940b06 0%, #8b0b06 0%, #4a0a07 100%) repeat-x scroll 0 0;}
+.navbar-inverse1 .navbar-nav > li > a {
+    color: #dbdbdb;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{background-image: linear-gradient(to bottom, #222 0px, #282828 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25) inset;}
+.mrgn-align{margin-bottom:10px;}
+.hg-fix{min-height: 480px;}
+.mrgn-align .form-control{width: 50%;}
