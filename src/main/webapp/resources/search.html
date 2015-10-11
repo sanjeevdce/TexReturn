@@ -1,0 +1,16 @@
+<table border=1>
+	<tr>
+		<th>Sr. No.</th>
+		<th>Name</th>
+		<th>Financial Year</th>
+		<th>Document Type</th>
+		<th>File</th>
+	</tr>
+	<tr ng-repeat="updData in uploadedData">
+		<td>{{$index+1}}</td>
+		<td>{{updData.name}}</td>
+		<td>{{updData.financialyear}}</td>
+		<td>{{updData.docType}}</td>
+		<td><img alt="Embedded Image" src="data:image/png;base64,{{updData.myFile.base64}}" /></td>
+	</tr>
+</table>

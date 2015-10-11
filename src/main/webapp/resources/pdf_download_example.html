@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="scotchApp">
+
+<head>
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- SPELLS -->
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/pdfdownload.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+  <pdf-download url="a.pdf" filename="my-awesome.pdf"></pdf-download>
+  
+</body>
+
+</html>
